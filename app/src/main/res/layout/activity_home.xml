@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grupo2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="150dp"
+        android:text="@string/menu_title"
+        android:textSize="20dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btn_ColdDrinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn1"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_HotDrinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn2"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btn_Sweets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn3"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_Salties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn4"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btn_Combos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn5"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_Personalized"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/degradado"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/btn6"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
